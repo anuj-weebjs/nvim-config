@@ -1,0 +1,25 @@
+# Ignore plugin directories (managed by vim-plug or other managers)
+plugged/
+autoload/plug.vim
+
+# Ignore swap files and backups (Vim/Neovim generates these)
+*.swp
+*.swo
+*.swn
+*~
+
+# Ignore OS-specific or temporary files
+.DS_Store
+Thumbs.db
+
+# Ignore log files or caches
+*.log
+*.cache
+
+# Ignore custom user data or sensitive info (if any)
+session/
+undo/
+view/
+
+# Ignore compiled files (e.g., from Treesitter or YCM)
+build/
